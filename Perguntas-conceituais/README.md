@@ -11,11 +11,14 @@ Abaixo você verá 3 dúvidas conceituais, com suas palavras responda cada uma d
 
   Queria saber qual seria uma saída para evitar esse número de consultas ao banco.
 
+> [Resposta 1](https://gist.github.com/GabrielDev023/bd1ebe4beb0556ad538277c4c46f6037) 
 * 2 - Fiquei com dúvida de qual seria a melhor forma de fazer, seguindo os princípios de DDD e Clean Arch.
 
   Por exemplo, em uma entidade Pedidos, onde tenha um relacionamento com Cliente, qual melhor forma de retornar no UseCase de busca (search) dos pedidos os dados de Pedido e Clientes junto.
 
   Vi alguns exemplos no fórum, onde é feito o find de Pedido e depois o find de Cliente, porém desta forma é executado em transações separadas no banco de dados, isso não seria um problema de performance ? Principalmente neste meu caso onde seria uma listagem, que para cada Pedido teria que buscar qual o cliente relacionado.
+
+> [Resposta 2](https://gist.github.com/GabrielDev023/5996848c74823988911169670a5c1525) 
 
 * 3 - Aprendemos que no DDD a relação entre agregados é feita apenas pelo seu Id.
 
@@ -25,3 +28,5 @@ Abaixo você verá 3 dúvidas conceituais, com suas palavras responda cada uma d
 
   E por último, ainda nessa linha, para fazer reports e dashboards, devemos usar outra estratégia que não passe pelo DDD e aja direto na base de dados para montar os resultados e indicadores?
 
+
+> [Resposta 3](https://gist.github.com/GabrielDev023/8a64422ec52ed851632bf43f0e493c00) 
