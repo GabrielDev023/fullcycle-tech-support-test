@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/codeedu/go-hexagonal/adapters/web/handler"
-	"github.com/codeedu/go-hexagonal/application"
+	"github.com/GabrielDev023/fullcycle-tech-support-test/tree/master/desafio-golang/adapters/web/handler"
+	"github.com/GabrielDev023/fullcycle-tech-support-test/tree/master/desafio-golang/application"
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
 	"log"

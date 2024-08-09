@@ -2,8 +2,8 @@ package db_test
 
 import (
 	"database/sql"
-	"github.com/codeedu/go-hexagonal/adapters/db"
-	"github.com/codeedu/go-hexagonal/application"
+	"github.com/GabrielDev023/fullcycle-tech-support-test/tree/master/desafio-golang/adapters/db"
+	"github.com/GabrielDev023/fullcycle-tech-support-test/tree/master/desafio-golang/application"
 	"github.com/stretchr/testify/require"
 	"log"
 	"testing"
